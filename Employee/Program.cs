@@ -1,4 +1,8 @@
+using Employee.DAL;
 using Employee.DAL.Context;
+using Employee.DAL.Interface;
+using Employee.Services;
+using Employee.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,10 +14,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
- builder.Services.AddDbContext<Context>(options =>
+ builder.Services.AddDbContext<EmployeeContext>(options =>
     {
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
     });
+builder.Services.AddTransient<IEmployeeService,EmployeeService>();
+builder.Services.AddTransient<IEmployeeRepository,EmployeeRepository>();
+
+
 
 var app = builder.Build();
 

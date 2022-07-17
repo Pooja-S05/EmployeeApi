@@ -3,16 +3,18 @@ using Employee.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace Employee.Migrations
 {
-    [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(EmployeeContext))]
+    [Migration("20220717072526_initials")]
+    partial class initials
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

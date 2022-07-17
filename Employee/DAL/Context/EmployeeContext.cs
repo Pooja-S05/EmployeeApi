@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Employee.DAL.Context
 {
-    public class Context:DbContext
+    public class EmployeeContext:DbContext
     {
-        public Context(DbContextOptions<Context> options):base(options)
+        public EmployeeContext(DbContextOptions<EmployeeContext> options):base(options)
         {
             
         }

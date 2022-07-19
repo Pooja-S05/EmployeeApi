@@ -22,7 +22,6 @@ builder.Services.AddTransient<IEmployeeService,EmployeeService>();
 builder.Services.AddTransient<IEmployeeRepository,EmployeeRepository>();
 
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

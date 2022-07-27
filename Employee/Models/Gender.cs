@@ -20,8 +20,8 @@ namespace Employee.Models
         public string? GenderName{get;set;}
 
 
-        [InverseProperty("Genders")]
-        public virtual ICollection<Employees> Employees {get;set;}=null!;
+        [InverseProperty("Gender")]
+        public ICollection<Employees> Employees{get;set;}
 
     }
 }

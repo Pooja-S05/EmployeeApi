@@ -120,3 +120,7 @@ C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\obj\Debug\net6.0\
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\obj\Debug\net6.0\Employee.pdb
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\obj\Debug\net6.0\Employee.genruntimeconfig.cache
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\obj\Debug\net6.0\ref\Employee.dll
+C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

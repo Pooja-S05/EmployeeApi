@@ -23,7 +23,6 @@ namespace Employee.DAL.Context
             {
                 entity.HasData(new Gender { GenderId = 1, GenderName = "Male" });
                 entity.HasData(new Gender { GenderId = 2, GenderName= "Female" });
-                entity.HasKey("GenderId");
             });
 
             modelBuilder.Entity<State>(entity =>

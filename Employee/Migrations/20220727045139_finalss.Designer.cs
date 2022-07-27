@@ -3,6 +3,7 @@ using Employee.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    partial class EmployeeContextModelSnapshot : ModelSnapshot
+    [Migration("20220727045139_finalss")]
+    partial class finalss
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,20 +48,10 @@ namespace Employee.Migrations
                     b.Property<string>("Employeename")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("GenderId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("StateId")
-                        .HasColumnType("int");
-
                     b.HasKey("EmployeeId");
-
-                    b.HasIndex("GenderId");
-
-                    b.HasIndex("StateId");
 
                     b.ToTable("Employees");
                 });
@@ -112,35 +104,6 @@ namespace Employee.Migrations
                             StateId = 2,
                             Name = "Kerala"
                         });
-                });
-
-            modelBuilder.Entity("Employee.Models.Employees", b =>
-                {
-                    b.HasOne("Employee.Models.Gender", "Gender")
-                        .WithMany("Employees")
-                        .HasForeignKey("GenderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Employee.Models.State", "State")
-                        .WithMany("Employees")
-                        .HasForeignKey("StateId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Gender");
-
-                    b.Navigation("State");
-                });
-
-            modelBuilder.Entity("Employee.Models.Gender", b =>
-                {
-                    b.Navigation("Employees");
-                });
-
-            modelBuilder.Entity("Employee.Models.State", b =>
-                {
-                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

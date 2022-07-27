@@ -15,20 +15,22 @@ namespace Employee.Models
         public int EmployeeAge { get; set; }
         public string? EmailId { get; set; }
         public string? Password { get; set; }
-        public int GenderId { get; set; }
+       
         public string Department { get; set; }=null!;
-        public int State { get; set; } 
-        
+       
+        public int GenderId{get;set;}
+        public int StateId{get;set;}
         public string City { get; set; }=null!;
 
+        
         [ForeignKey("GenderId")]
         [InverseProperty("Employees")]
-        public virtual Gender? Genders {get;set;}
+        public Gender? Gender{get;set;}
 
         [ForeignKey("StateId")]
         [InverseProperty("Employees")]
-         public virtual State? States {get;set;}
-        
+        public State? State{get;set;}
+
     }
 
 }

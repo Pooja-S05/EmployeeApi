@@ -64,9 +64,9 @@ namespace Employee.Services
                 ExistingEmployee.EmployeeAge=employee.EmployeeAge;
                 ExistingEmployee.EmailId=employee.EmailId;
                 ExistingEmployee.Password=employee.Password;
-                ExistingEmployee.GenderId=employee.GenderId;
+            
                 ExistingEmployee.Department=employee.Department;
-                ExistingEmployee.State=employee.State;
+               
                 ExistingEmployee.City=employee.City;
                 return _employeeRepository.UpdateEmployee(ExistingEmployee);
             }

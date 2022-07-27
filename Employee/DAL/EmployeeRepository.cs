@@ -13,11 +13,11 @@ namespace Employee.DAL
     public class EmployeeRepository:IEmployeeRepository
     {
         private readonly EmployeeContext _Context;
-        private readonly ILogger _logger;
-        public EmployeeRepository(EmployeeContext context,ILogger logger)
+       
+        public EmployeeRepository(EmployeeContext context)
         {
             _Context=context;
-            _logger=logger;
+         
         }
         public bool CreateEmployee(Employees employee)
         {
@@ -28,12 +28,12 @@ namespace Employee.DAL
             }
             catch (ValidationException exception)
             {
-                _logger.LogError("EmployeeRespository","CreateEmployee(Employees employee)",exception,employee);
+               
                 throw;
             }
             catch (Exception exception)
             {
-                _logger.LogError("EmployeeRespository","CreateEmployee(Employees employee)",exception,employee);
+                
                 throw exception;
             }
         }
@@ -48,7 +48,7 @@ namespace Employee.DAL
             }
             catch (Exception exception)
             {
-                _logger.LogError("EmployeeRespository","CreateEmployee(Employees employee)",exception,employee);
+                
                 throw exception;
             }
         }
@@ -56,7 +56,7 @@ namespace Employee.DAL
         {
             if(EmployeeId<=0)throw new ArgumentException("EmployeeId must be creater than 0");
             try{
-                var Employee=_Context.Employees.Include(e => e.Genders).Include(e =>e.States).FirstOrDefault(item => item.EmployeeId==EmployeeId);
+                var Employee=_Context.Employees.Include(e => e.Gender).Include(e=>e.State).FirstOrDefault(item => item.EmployeeId==EmployeeId);
                 return Employee;
             }
             catch (Exception exception)

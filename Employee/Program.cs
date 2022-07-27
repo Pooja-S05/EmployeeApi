@@ -14,12 +14,26 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+
  builder.Services.AddDbContext<EmployeeContext>(options =>
     {
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
     });
+
+
+
+
 builder.Services.AddTransient<IEmployeeService,EmployeeService>();
 builder.Services.AddTransient<IEmployeeRepository,EmployeeRepository>();
+
+
+builder.Services.AddControllersWithViews()
+    .AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling =
+Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
 
 
 var app = builder.Build();

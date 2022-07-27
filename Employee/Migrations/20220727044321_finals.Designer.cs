@@ -3,6 +3,7 @@ using Employee.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Employee.Migrations
 {
     [DbContext(typeof(EmployeeContext))]
-    partial class EmployeeContextModelSnapshot : ModelSnapshot
+    [Migration("20220727044321_finals")]
+    partial class finals
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,14 +54,14 @@ namespace Employee.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("StateId")
+                    b.Property<int>("State")
                         .HasColumnType("int");
 
                     b.HasKey("EmployeeId");
 
                     b.HasIndex("GenderId");
 
-                    b.HasIndex("StateId");
+                    b.HasIndex("State");
 
                     b.ToTable("Employees");
                 });
@@ -116,21 +118,21 @@ namespace Employee.Migrations
 
             modelBuilder.Entity("Employee.Models.Employees", b =>
                 {
-                    b.HasOne("Employee.Models.Gender", "Gender")
+                    b.HasOne("Employee.Models.Gender", "Genders")
                         .WithMany("Employees")
                         .HasForeignKey("GenderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Employee.Models.State", "State")
+                    b.HasOne("Employee.Models.State", "States")
                         .WithMany("Employees")
-                        .HasForeignKey("StateId")
+                        .HasForeignKey("State")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Gender");
+                    b.Navigation("Genders");
 
-                    b.Navigation("State");
+                    b.Navigation("States");
                 });
 
             modelBuilder.Entity("Employee.Models.Gender", b =>

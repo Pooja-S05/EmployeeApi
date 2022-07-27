@@ -14,11 +14,11 @@ namespace Employee.Controllers
     public class EmplyeeController : ControllerBase
     {
         public readonly IEmployeeService _employeeService;
-        public readonly ILogger _Logger;
-        public EmplyeeController(IEmployeeService employeeService,ILogger logger)
+        
+        public EmplyeeController(IEmployeeService employeeService)
         {
             _employeeService=employeeService;
-            _Logger=logger;
+       
         }
         [HttpPost]
         public async Task<ActionResult> CreateEmployee(Employees employee)
@@ -30,12 +30,12 @@ namespace Employee.Controllers
             }
             catch(ValidationException exception)
             {
-                _Logger.LogError("EmployeeController","CreateEmployee(Employees employee)",exception,employee);
+             
                 return BadRequest("validation error occured");
             }
             catch(Exception exception)
             {
-                _Logger.LogError("EmployeeController","CreateEmployee(Employees employee)",exception,employee);
+                
                 return Problem("Error Occured While creating employee");
             }
         }
@@ -49,7 +49,7 @@ namespace Employee.Controllers
            
             catch(Exception exception)
             {
-                _Logger.LogError("EmployeeController","DeleteEmployee(int EmployeeId)",exception,EmployeeId);
+               
                 return Problem("Error Occured While creating employee");
             }
         }
@@ -63,7 +63,7 @@ namespace Employee.Controllers
              }
              catch(Exception exception)
             {
-                _Logger.LogError("EmployeeController","GetEmployee(int EmployeeId)",exception,EmployeeId);
+              
                 return Problem("Error Occured While creating employee");
             }
 
@@ -79,7 +79,7 @@ namespace Employee.Controllers
             
             catch(Exception exception)
             {
-                _Logger.LogError("EmployeeController","UpdateEmployee(Employee employee)",exception,employee);
+                
                 return Problem("Error Occured While creating employee");
             }
         }

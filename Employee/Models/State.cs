@@ -12,8 +12,10 @@ namespace Employee.Models
         [Key][DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int StateId{ get; set; }
         public string? Name{ get; set; }
+        
+        [InverseProperty("State")]
+        public ICollection<Employees> Employees{get;set;}=null!;
 
-         [InverseProperty("States")]
-         public virtual ICollection<Employees> Employees {get;set;}=null!;
+       
     }
 }

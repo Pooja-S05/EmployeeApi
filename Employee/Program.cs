@@ -4,6 +4,7 @@ using Employee.DAL.Interface;
 using Employee.Services;
 using Employee.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +37,11 @@ Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );
 
 
-
+var logger = new LoggerConfiguration()
+      .ReadFrom.Configuration(builder.Configuration)
+      .Enrich.FromLogContext()
+      .CreateLogger();
+    builder.Logging.AddSerilog(logger);
 
 
 var app = builder.Build();

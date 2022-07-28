@@ -13,9 +13,12 @@ namespace Employee.Services
     public class EmployeeService:IEmployeeService
     {
         public readonly IEmployeeRepository _employeeRepository;
-        public EmployeeService(IEmployeeRepository employeeRepository)
+        private readonly ILogger<EmployeeService> _logger;
+
+        public EmployeeService(IEmployeeRepository employeeRepository,ILogger<EmployeeService> logger)
         {
             _employeeRepository=employeeRepository;
+            _logger=logger;
         }
         public bool CreateEmployee(Employees employee)
         {
@@ -25,10 +28,13 @@ namespace Employee.Services
             }
             catch (ValidationException exception)
             {
+                _logger.LogError("EmployeeService " + "-->"+ "CreateEmployee(Employee employee)" +"-->"+ exception.Message);
                 throw;
             }
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeService " + "-->"+ "CreateEmployee(Employee employee)" +"-->"+ exception.Message);
+
                 throw exception;
             }
         }
@@ -40,6 +46,8 @@ namespace Employee.Services
             
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeService " + "-->"+ "DeleteEmployee(int employeeId)" +"-->"+ exception.Message);
+
                 throw exception;
             }
         }
@@ -52,6 +60,8 @@ namespace Employee.Services
             
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeService " + "-->"+ "GetEmployee(int employeeId)" +"-->"+ exception.Message);
+
                 throw exception;
             }
         }
@@ -73,6 +83,8 @@ namespace Employee.Services
             
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeService " + "-->"+ "UpdateEmployee(Employee employee)" +"-->"+ exception.Message);
+
                 throw exception;
             }
         }

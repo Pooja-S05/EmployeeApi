@@ -10,18 +10,13 @@ namespace Employee.Models
     public class Gender
     {
 
-        
-        public Gender()
-        {
-        }
-
         [Key][DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int GenderId{get;set;}
         public string? GenderName{get;set;}
 
 
         [InverseProperty("Gender")]
-        public ICollection<Employees> Employees{get;set;}
+        public ICollection<Employees>? Employees{get;set;}
 
     }
 }

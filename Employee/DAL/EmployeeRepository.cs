@@ -13,10 +13,12 @@ namespace Employee.DAL
     public class EmployeeRepository:IEmployeeRepository
     {
         private readonly EmployeeContext _Context;
-       
-        public EmployeeRepository(EmployeeContext context)
+        private readonly ILogger<EmployeeRepository> _logger;
+
+        public EmployeeRepository(EmployeeContext context,ILogger<EmployeeRepository> logger)
         {
             _Context=context;
+            _logger=logger;
          
         }
         public bool CreateEmployee(Employees employee)
@@ -28,7 +30,7 @@ namespace Employee.DAL
             }
             catch (ValidationException exception)
             {
-               
+               _logger.LogError("EmployeeRepository " + "-->"+ "CreateEmployee(Employee employee)" +"-->"+ exception.Message);
                 throw;
             }
             catch (Exception exception)
@@ -42,13 +44,13 @@ namespace Employee.DAL
              if(EmployeeId<=0)throw new ArgumentException("EmployeeId must be creater than 0");
             try{
                 var ExistingEmployee=_Context.Employees.FirstOrDefault(item => item.EmployeeId==EmployeeId);
-                _Context.Employees.Remove(ExistingEmployee);
+                _Context.Employees!.Remove(ExistingEmployee);
                 _Context.SaveChanges();
                 return true;
             }
             catch (Exception exception)
             {
-                
+                _logger.LogError("EmployeeRepository " + "-->"+ "DeleteEmployee(int employeeId)" +"-->"+ exception.Message);
                 throw exception;
             }
         }
@@ -57,10 +59,11 @@ namespace Employee.DAL
             if(EmployeeId<=0)throw new ArgumentException("EmployeeId must be creater than 0");
             try{
                 var Employee=_Context.Employees.Include(e => e.Gender).Include(e=>e.State).FirstOrDefault(item => item.EmployeeId==EmployeeId);
-                return Employee;
+                return Employee!;
             }
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeRepository " + "-->"+ "GetEmployee(int employeeId)" +"-->"+ exception.Message);
                 throw exception;
             }
         }
@@ -73,6 +76,7 @@ namespace Employee.DAL
             }
             catch (Exception exception)
             {
+                _logger.LogError("EmployeeRepository " + "-->"+ "UpdateEmployee(Employee employee)" +"-->"+ exception.Message);
                 throw exception;
             }
         }

@@ -13,11 +13,13 @@ namespace Employee.Controllers
     [Route("[controller]/[action]")]
     public class EmplyeeController : ControllerBase
     {
-        public readonly IEmployeeService _employeeService;
-        
-        public EmplyeeController(IEmployeeService employeeService)
+        private readonly IEmployeeService _employeeService;
+        private readonly ILogger<EmplyeeController> _logger;
+
+        public EmplyeeController(IEmployeeService employeeService,ILogger<EmplyeeController> logger)
         {
             _employeeService=employeeService;
+            _logger=logger;
        
         }
         [HttpPost]
@@ -30,12 +32,12 @@ namespace Employee.Controllers
             }
             catch(ValidationException exception)
             {
-             
+                _logger.LogError("EmployeeController " + "-->"+ "CreateEmployee(Employee employee)" +"-->"+ exception.Message);
                 return BadRequest("validation error occured");
             }
             catch(Exception exception)
             {
-                
+                _logger.LogError("EmployeeController " + "-->"+ "CreateEmployee(Employee employee)" +"-->"+ exception.Message);
                 return Problem("Error Occured While creating employee");
             }
         }
@@ -49,7 +51,7 @@ namespace Employee.Controllers
            
             catch(Exception exception)
             {
-               
+               _logger.LogError("EmployeeController " + "-->"+ "DeleteEmployee(int employeeId)" +"-->"+ exception.Message);
                 return Problem("Error Occured While creating employee");
             }
         }
@@ -63,6 +65,7 @@ namespace Employee.Controllers
              }
              catch(Exception exception)
             {
+                _logger.LogError("EmployeeController " + "-->"+ "GetEmployee(int employeeId)" +"-->"+ exception.Message);
               
                 return Problem("Error Occured While creating employee");
             }
@@ -79,7 +82,7 @@ namespace Employee.Controllers
             
             catch(Exception exception)
             {
-                
+                _logger.LogError("EmployeeController " + "-->"+ "UpdateEmployee(Employee employee)" +"-->"+ exception.Message);
                 return Problem("Error Occured While creating employee");
             }
         }

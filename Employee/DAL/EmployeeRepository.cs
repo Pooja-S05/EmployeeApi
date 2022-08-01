@@ -8,6 +8,7 @@ using Employee.DAL.Interface;
 using Employee.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Employee.DAL
 {
     public class EmployeeRepository:IEmployeeRepository
@@ -24,6 +25,7 @@ namespace Employee.DAL
         public bool CreateEmployee(Employees employee)
         {
             try{
+                employee.Password=HashPassword.Sha256(employee.Password!);
                 _Context.Employees.Add(employee);
                 _Context.SaveChanges();
                 return true;
@@ -80,5 +82,12 @@ namespace Employee.DAL
                 throw exception;
             }
         }
+        public Employees login(Login User)
+        {
+            return _Context.Employees.Where(e => e.EmailId==User.EmailId && e.Password==User.Password).FirstOrDefault();
+        } 
+
+
+       
     }
 }

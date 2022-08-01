@@ -12,6 +12,9 @@ namespace Employee.Services.Interfaces
         bool DeleteEmployee(int EmployeeId);
         Employees GetEmployee(int EmployeeId);
         bool UpdateEmployee(Employees employee);
+
+        
+        
         
     }
 }

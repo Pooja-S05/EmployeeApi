@@ -12,5 +12,8 @@ namespace Employee.DAL.Interface
         bool DeleteEmployee(int EmployeeId);
         Employees GetEmployee(int EmployeeId);
         bool UpdateEmployee(Employees employee);
+
+        Employees login(Login User);
+        
     }
 }

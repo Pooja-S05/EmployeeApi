@@ -134,3 +134,4 @@ C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

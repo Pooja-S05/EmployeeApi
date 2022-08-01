@@ -1,0 +1,508 @@
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 60.0485ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 1.9822ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 58.7186ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 22.8042ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 23.1044ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 21.5365ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 0.2173ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 0.6196ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 24.0639ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 24.6757ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 30.8579ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.3436ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 192.021ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 249.5489ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 56.0863ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 92.6488ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 22.8753ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - - - 200 628 image/png 0.9228ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.4263ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 174.5198ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 225.2761ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 84.4813ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 13.0867ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - - - 200 628 image/png 0.7386ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.7046ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 175.5427ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 229.8371ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 67.9120ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 2.3392ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 41.2422ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 20.7856ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 21.0915ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 15.9712ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 0.7838ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 5.1943ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 2.3473ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 7.0234ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 25.2899ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.3222ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 178.8632ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 228.6795ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 72.6113ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 19.4187ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - - - 200 628 image/png 0.6374ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1070ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 173.7257ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 225.6923ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1.2567ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 4.6904ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2078ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - - - 200 628 image/png 0.8377ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executing StatusCodeResult, setting HTTP status code 200
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 1.0469ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 0 - 1.7437ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 58.5914ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 2.5214ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 42.0347ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 15.8340ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 21.8175ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 21.8629ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 0.3030ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 0.8852ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 8.9009ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 17.4304ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 28.8266ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.6856ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 2.0643ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Employee.Services.AuthService' while attempting to activate 'Employee.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 500 - text/plain;+charset=utf-8 111.3449ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 72.1275ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 1.9117ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 84.7847ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 34.9387ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 35.8490ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 33.2220ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.2439ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 2.5514ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Employee.Services.AuthService' while attempting to activate 'Employee.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0 - 500 - text/plain;+charset=utf-8 108.4111ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 92.8258ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 2.7682ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 49.4867ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 18.8986ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 15.6554ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 9.8839ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 0.3639ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 0.9722ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 14.4979ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 28.2662ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 33.7668ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.6318ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 1.1119ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Employee.Services.AuthService' while attempting to activate 'Employee.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0 - 500 - text/plain;+charset=utf-8 101.0752ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 52.8400ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 1.8143ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 43.6553ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 19.7753ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 19.9602ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 19.8023ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 1.2927ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1.0663ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 5.1643ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 11.6205ms
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 13.2607ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.2719ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 1.8838ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Employee.Services.AuthService' while attempting to activate 'Employee.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login?EmailId=vp%40gmail.com&Password=Password%4010 - 0 - 500 - text/plain;+charset=utf-8 103.8967ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 65.5603ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 2.4157ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 86.3074ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 39.9528ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 39.9319ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 39.9245ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.0330ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 2.0805ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Employee.Services.AuthService' while attempting to activate 'Employee.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 500 - text/plain;+charset=utf-8 108.7253ms
+[2022-08-01 {CorrelaAionI1 INF] Application is shutting down...
+[2022-08-01 {CorrelaAionI1 INF] User profile is available. Using 'C:\Users\pooja.sakthivel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: https://localhost:7196
+[2022-08-01 {CorrelaAionI1 INF] Now listening on: http://localhost:5057
+[2022-08-01 {CorrelaAionI1 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-01 {CorrelaAionI1 INF] Hosting environment: Development
+[2022-08-01 {CorrelaAionI1 INF] Content root path: C:\Users\pooja.sakthivel\Documents\GitHub\EmployeeApi\Employee\
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/ - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/ - - - 404 0 - 52.3753ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 5.0794ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 87.2904ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 37.8228ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 38.1408ms
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 39.0384ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.9962ms
+[2022-08-01 {CorrelaAionI1 INF] Request starting HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60
+[2022-08-01 {CorrelaAionI1 INF] Executing endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Employee.Models.Login) on controller Employee.Controllers.AuthController (Employee).
+[2022-08-01 {CorrelaAionI1 INF] Entity Framework Core 6.0.7 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-01 {CorrelaAionI1 INF] Executed DbCommand (72ms) [Parameters=[@__User_EmailId_0='?' (Size = 4000), @__User_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[City], [e].[Department], [e].[EmailId], [e].[EmployeeAge], [e].[Employeename], [e].[GenderId], [e].[Password], [e].[StateId]
+FROM [Employees] AS [e]
+WHERE ([e].[EmailId] = @__User_EmailId_0) AND ([e].[Password] = @__User_Password_1)
+[2022-08-01 {CorrelaAionI1 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-08-01 {CorrelaAionI1 INF] Executed action Employee.Controllers.AuthController.Login (Employee) in 3071.065ms
+[2022-08-01 {CorrelaAionI1 INF] Executed endpoint 'Employee.Controllers.AuthController.Login (Employee)'
+[2022-08-01 {CorrelaAionI1 INF] Request finished HTTP/2 POST https://localhost:7196/Auth/Login application/json-patch+json 60 - 200 300 application/json;+charset=utf-8 3136.3649ms
